@@ -94,11 +94,3 @@ STR R4, [R5]
 **Resultado Esperado**:
 
 Al final de la ejecución, el valor de `WriteData` debería ser `6`, ya que el resultado de la multiplicación se almacena en la dirección `100`.
-
-## Conclusión
-
-Esta implementación integra con éxito la instrucción `MUL` en el procesador ARM multi-ciclo. Ahora, el procesador puede realizar multiplicación junto con otras operaciones básicas como adición, sustracción y operaciones lógicas. El programa de prueba verificó con éxito que el procesador puede manejar la instrucción de multiplicación y almacenar el resultado en la memoria como se esperaba.
-
-Para obtener una visión detallada de toda la implementación, incluido el código fuente, consulte el repositorio de GitHub:
-
-[Repositorio GitHub: Multicycle-ARM](https://github.com/MarcoMadridG27/Multicyle-ARM)
